@@ -1,0 +1,49 @@
+/*画面背景*/
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;            
+    margin: 0;                
+}
+
+/*main*/
+.main {
+    height: 400px;
+    width: 800px;
+    background-color: rgb(255, 194, 202);
+    padding: 30px ;
+    padding-bottom: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*form*/
+.form {
+    padding: 10px 0px 40px 0px;
+    background-color: white;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 20px; 
+    border: 1px solid rgba(61, 61, 61,0.6);
+    max-width: 500px;
+    border
+}
+
+
+/*label*/
+label {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    max-width: 200px;
+}
+label input {
+    margin-top: 15px;
+}
