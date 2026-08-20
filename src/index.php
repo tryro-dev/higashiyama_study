@@ -14,7 +14,7 @@
                 <form action="result.php" method="post">
                   <label>
                     名前を入力してください。
-                    <input type="text" name="username" placeholder="太郎" maxlength="20" minlength="1" required>
+                    <input type="text" name="username" placeholder="太郎" maxlength="20" minlength="1">
                   </label>
                   <button type="submit" >占う</button>
                 </form>
