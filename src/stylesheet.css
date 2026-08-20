@@ -8,11 +8,10 @@ body {
     margin: 0;                
 }
 
-/*main*/
-.main {
+/*色のある外枠*/
+.main1,.main2 {
     height: 400px;
-    width: 800px;
-    background-color: rgb(255, 194, 202);
+    width: 700px;
     padding: 30px ;
     padding-bottom: 50px;
     text-align: center;
@@ -20,30 +19,72 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+}
+.main1 {
+    background-color: rgb(242, 247, 255);
+}
+.main2 {
+    background-color: rgb(255, 253, 227);
 }
 
-/*form*/
-.form {
-    padding: 10px 0px 40px 0px;
+/*中の白窓*/
+.form, .result {
+    padding: 10px 10px 40px 10px;
     background-color: white;
     text-align: center;
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
     border-radius: 20px; 
-    border: 1px solid rgba(61, 61, 61,0.6);
-    max-width: 500px;
-    border
+    max-width: 400px;
+    box-shadow:  1px 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
-
-/*label*/
+/*名前入力欄*/
 label {
     display: flex;
     flex-direction: column;
     margin: 30px auto;
-    max-width: 200px;
+    max-width: 250px;
 }
 label input {
     margin-top: 15px;
+    outline: none;
+    border: 1px solid #b0bac0;
+    padding: 5px;
+    width: 250px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+/*ボタン*/
+button {
+    background-color: rgb(71, 137, 190);
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 10px;
+    font-weight: 550;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(32, 32, 32,0.7);
+}
+.result a {
+    display: inline-block;
+    color: white;
+    background-color: rgb(71, 137, 190);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/*おみくじ結果テキスト*/
+.fortunetxt {
+    color: rgb(207, 46, 46);
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.error {
+    color: rgb(252, 67, 54);
+    font-weight: 500;
 }
